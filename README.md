@@ -12,7 +12,7 @@ A wrapper class to facilitate easy and standardized implementation of latest Adm
 @param userId -> Pass the userId. (required parameter)  
 @param adSdkConfiguration -> Pass the details of list of applovinTestDevices, googleAdsTestDevices, personalisedAds, isTestMode and personalisedAds as AdSdkConfiguration class.(default -> null)
 @param isDebug -> You can pass if the debug mode is on or off by passing the boolean value.(default is false)
-@param appLovinKey -> You can pass you appLovinKey to initialize AppLovinMAX 
+<pre> @param appLovinKey -> You can pass you appLovinKey to initialize AppLovinMAX </pre>
 
 AdSdk.initialise(
     defaultAdSdkAppConfig: DefaultAdSdkOptions.currentPlatform,
