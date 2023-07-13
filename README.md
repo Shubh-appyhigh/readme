@@ -6,6 +6,8 @@ A wrapper class to facilitate easy and standardized implementation of latest Adm
 #### AdSdk
 
 ##### initialize
+<pre><code>@param userId -> Pass the userId. (required parameter) </pre><code>
+
 ```
 /** Call 'initialize'function with the AdSdk class object  */
 <!--- @param defaultAdSdkAppConfig -> Pass the details in the form of AdSdkAppConfig class. (required parameter).  --->
