@@ -7,12 +7,13 @@ A wrapper class to facilitate easy and standardized implementation of latest Adm
 
 ##### initialize
 ```
-/** Call 'initialize'function with the AdSdk class object  
+<!-- /** Call 'initialize'function with the AdSdk class object  
 @param defaultAdSdkAppConfig -> Pass the details in the form of AdSdkAppConfig class. (required parameter).  
 @param userId -> Pass the userId. (required parameter)  
 @param adSdkConfiguration -> Pass the details of list of applovinTestDevices, googleAdsTestDevices, personalisedAds, isTestMode and personalisedAds as AdSdkConfiguration class.(default -> null)
 @param isDebug -> You can pass if the debug mode is on or off by passing the boolean value.(default is false)
-@param appLovinKey -> You can pass you appLovinKey to initialize AppLovinMAX **/
+@param appLovinKey -> You can pass you appLovinKey to initialize AppLovinMAX **/ -->
+
 AdSdk.initialise(
     defaultAdSdkAppConfig: DefaultAdSdkOptions.currentPlatform,
     userId:user_id,)
